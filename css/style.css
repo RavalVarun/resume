@@ -1,0 +1,91 @@
+/* Global style */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1,
+h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+a {
+    color: #ef233c;
+}
+
+a:hover {
+    text-decoration: none;
+    
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+/* Headeer and Footer */
+header,
+footer {
+    background-color: #2b2d42;
+    color: #8d99ae;
+}
+
+header {
+    text-align: center;
+}
+
+header h1,
+header h2 {
+    color: #edf2f4;
+    margin: 0;
+}
+
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    /* float: left; */
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    background-color: white;
+    padding: 10px;
+
+}
+
+/* work experience */
+
+.work {
+    background-color: #edf2f4;
+}
+
+/* Education */
+
+.education {
+    background-color: #8d99ae;
+}
